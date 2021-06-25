@@ -206,7 +206,11 @@ p#cita{
 footer{
     padding-top: 20px;
     background-color:#012E40;
-widht:100%;    
+    widht:100%;   
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
 }
 
 footer ul{
