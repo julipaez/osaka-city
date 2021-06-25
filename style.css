@@ -1,0 +1,434 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+span{
+    font-family: 'Bebas Neue', sans-serif;
+    font-style: initial;
+    font-variant: normal;
+}
+
+
+/*INDEX*/
+/* HEADER - MENU*/
+
+header {
+    height: 70px;
+    background-color: #BF1736;
+    width: 100%;
+}
+
+header nav ul li{
+        display: inline-block;
+        padding: 25px;
+        
+    }
+
+header a{
+        display: inline-block;
+        color:white;
+        font-size: 17px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+}
+
+ul > li > a:first-child{
+    margin-left: 100px;
+}
+
+.active{
+    text-decoration:underline;
+}
+
+nav > ul.menu li a:hover{
+    color:#F2C12E;
+}
+
+
+/* VIDEO - YOUTUBE*/
+
+div > iframe {
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+}
+
+/* ENCABEZADOS*/
+
+h1 {
+    /* height: 115px; */
+    margin-left: 45%;
+    padding-top: 37px;
+    font: bold normal normal 50px/50px 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    color: #004968;
+    
+}
+
+#descripcion,
+#ciudad{
+    padding-top: 30px;
+    margin-left: 100px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:30px;
+    text-align: center;
+}
+
+h2{
+    padding-top: 20px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    }
+
+h3{
+    font-size: 25px;
+}
+
+h3{
+    font-size: 25px;
+    margin-bottom: 25px;
+    height:45px;
+    text-align: center; 
+    
+}
+
+/*LOGO*/
+
+div#logo {
+    background-image: url(../images/logo-sitio.svg);
+    background-repeat: no-repeat;
+    background-position-x: 40%;
+    background-position-y: 5px;
+    background-color:#f2eddc70;
+    height: 110px;
+}
+
+
+/*BODY*/
+
+body{
+    background-image: url(../images/fondo-body.jpg);
+    background-repeat:repeat;
+    background-attachment: fixed;
+}
+
+div#home{
+    background-color: #f2eddce3;
+    width: 1280px;
+    margin: auto;
+}
+
+div#contenido2{
+    background-color:#f25f5280;
+    height: 750px;
+}
+div#contenido3{
+    
+    background-color:#0396a63b;
+    
+}
+/*IMÁGENES y PÁRRAFOS EN COLUMNAS*/
+
+div#gastronomia{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 300px;
+    margin-right: 70px;
+    display: inline-block;
+    vertical-align: top;
+    height: 590px;
+    width: 315px;
+}
+ 
+figure{
+    margin: 50px 450px ;
+}
+
+div#poblacion{
+        
+        margin-top: 40px;
+        display: inline-block;
+        vertical-align: top;
+        height: 590px;
+        width: 315px;
+    }
+      
+
+/*PÁRRAFOS*/
+
+#parrafo1{
+    margin-left:170px;
+    margin-right: 70px;
+    padding-right:60px;
+    margin-top:40px;
+    margin-bottom: 190px;
+    font-size: 16px;
+    line-height: 40px;
+    word-spacing: 8px;
+}
+
+p{
+    font-size: 16px;
+    line-height: 25px;
+    
+}
+p{
+    height: 200px;
+    font-family: sans-serif;
+    
+}
+
+
+blockquote{
+    font-size: 18px;
+    line-height: 35px;
+    padding-bottom: 30px;
+    margin-left: 70px;
+    word-spacing: 3px;
+}
+p#cita{
+    font-size: 18px;
+    height: 35px;
+    margin-left: 70px;
+}
+
+/*FOOTER*/
+
+footer{
+    padding-top: 20px;
+    background-color:#012E40;
+    height: 100px;
+    width: 100%;
+}
+
+footer ul{
+    margin-left: 290px;
+    list-style: none;
+    padding-top: 15px;
+}
+footer ul li{
+    display: inline-block;
+    font-size: 20px;
+}
+footer ul li a{
+    color: white;
+}
+
+/*TURISMO*/
+
+section.turismo{
+    height:2270px;
+    background-color: #f25f5280;
+}
+section.turismo >h3{
+    text-align: unset;
+    padding-top: 20;
+    margin-top: 150px;
+    margin-left: 50px;
+    height: 30px;
+    
+
+}
+section.turismo >p{
+    font-size: 20px;
+    margin-top: 35px;
+    padding-bottom: 250px;
+    margin-right: 30px;
+    word-spacing: 2px;
+    line-height: 35px;
+}
+section.turismo >div >img{
+    float: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 310px;
+}
+
+section.turismo >h3:first-child{
+    margin-top: 50px;
+}
+
+section.turismo >p >a{
+    color: royalblue;
+}
+
+section.turismo >p >a:hover{
+    color: red;
+}
+
+/*PRÓXIMOS EVENTOS*/
+
+section.eventos{
+    background-color:#f25f5280;
+}
+
+section.eventos >a{
+    color:rgb(100, 6, 100);
+    
+
+}
+
+section.eventos >a >h3{
+    font-size: 20px;
+    height: 40px;
+    margin-bottom: 25px;
+    ;
+}
+
+section.eventos >a:hover{
+    color: royalblue;
+}
+
+
+section.eventos >h2{
+    margin-bottom: 50px;
+    margin-left: 25px;
+}
+
+#cerveza, #fuego, #universal, #festival{
+    float: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+   
+}
+p.evento{
+    font-size: 17px;
+    margin-top: 10px;
+    padding-top: 100px;
+    padding-bottom: 250px;
+    margin-right: 30px;
+    word-spacing: 2px;
+    line-height: 35px;
+    height: 400px;
+
+}
+.contenido4{
+    height: 1650px;
+    background-color: #0396a63b;
+    margin-top: -25px;
+}
+
+/*ARMÁ TU VIAJE*/
+
+.viaje{
+    background-color: #0396a63b;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+div.mapa >iframe {
+   
+margin-left: 50px;
+margin-bottom: 25px;
+}
+
+.viaje >a:hover{
+    color: hsl(300, 85%, 43%);
+
+}
+section.viaje >a{
+margin-left: 50px;
+font-size: 15px;
+color:blue;
+margin-bottom: 50px;
+}
+
+section.viaje >h2{
+    text-align: left;
+    padding:0;
+    margin-left: 50px;
+    margin-top:30px;
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+/*FORMULARIO*/
+
+input, 
+textarea{
+    outline: rgb(7, 7, 172) auto 2px;
+    margin-top: 10px;
+}
+textarea{
+    resize: none;
+}
+
+form >div *{
+    display: inline-block;
+    vertical-align: top;
+    line-height: 25px;
+    width:150px;
+    }
+
+div#formulario{
+    float: right;
+    margin-top: 200px;
+    margin-right: 150px;
+}
+
+label{
+    font-size: 20px;
+   margin-top: 15px;
+    width: 50px;
+    margin-right: 5px;
+}
+div >input{
+    height: 30px;
+
+}
+
+section.viaje >h3{
+    font-size: 17px;
+    text-align: left;
+    margin-top: 25px;
+    margin-left: 50px;
+    height: 20px;
+}
+
+p.contacto{
+    margin-left: 50px;
+    height: 70px;
+    
+}
+
+section.viaje >ul{
+    padding-left: 50px;
+    padding-top: 13px;
+    word-spacing: 3px;
+    background-color:#f25f52a7;
+    margin-top: 25px;
+    line-height: 25px;
+    margin-left: 150px;
+    height: 150px;
+    width:1000px;
+}
+
+
+div#telefonos >ul >li{
+    display: inline-block;
+    margin-left: 50px;
+    
+}
+/*GRACIAS*/
+
+figure#neko{
+    margin-left: 300px;
+    height:467px ;
+} 
+div.gracias > p{
+    height: 20px;
+    font-size: 50px;
+    margin-top: 40px;
+    margin-left: 300px;
+    margin-bottom: 0px;
+    padding-bottom: 70px;
+    padding-top: 50px;
+}
