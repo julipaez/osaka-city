@@ -5,8 +5,7 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: 'Bebas Neue', sans-serif;
-      padding: 0px;
-widht:100%;
+      
 }
 span{
     font-family: 'Bebas Neue', sans-serif;
@@ -22,6 +21,8 @@ header {
     height: 70px;
     background-color: #BF1736;
     width: 100%;
+    
+     display: block;
 }
 
 header nav ul li{
@@ -206,8 +207,6 @@ p#cita{
 footer{
     padding-top: 20px;
     background-color:#012E40;
-    widht:100%;   
-   position: fixed;
    left: 0;
    bottom: 0;
    width: 100%;
